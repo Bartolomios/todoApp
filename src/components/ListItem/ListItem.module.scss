@@ -1,0 +1,32 @@
+.listItem{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-align: left;
+        button{
+        margin-left: 10px;
+        color:white;
+            padding: 5px 10px;
+        background: navy;
+        border:none;
+        cursor: pointer;
+     
+    }
+    .data{
+        font-style: italic;
+        font-size: 12px;
+    }
+.taskName{
+    display:block;
+    max-width: 70%;
+}
+}
+.priority{
+    color:#FF4500;
+}
+.finishDate{
+    margin-top: 5px;
+    display: block;
+    font-weight: 300;
+    font-size: 12px;
+}

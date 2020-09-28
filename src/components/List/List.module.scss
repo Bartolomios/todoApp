@@ -1,0 +1,17 @@
+.listActive{
+    max-width: 700px;
+    margin:auto;
+    padding:20px;
+    border-bottom: 2px solid navy;
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+}
+.listDone{
+    @extend .listActive;
+    border:none;
+    
+}
+h2{
+    text-align:center;
+}
